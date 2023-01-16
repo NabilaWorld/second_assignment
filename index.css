@@ -336,7 +336,7 @@ nav li a{
 .logo-design{
     
     margin-left: 18%;
-    margin-bottom: 150px;
+    margin-bottom: 5px;
     border: 1px solid var(--orange);
     border-radius: 8px;
     width: 13%;
@@ -416,6 +416,7 @@ nav li a{
     width: 100px;
     height: 30px;
     filter: grayscale(100%);
+    margin-bottom: 10px;
 }
 
 /* footer design */
@@ -516,9 +517,10 @@ nav li a{
 
     /* logo image */
     .logo-design{
-        position: relative;
-        top: 550px;
-        width: 40%;
+        /* position: relative;
+        top: 550px; */
+        width: 50%;
+        
     }
 
   
@@ -526,15 +528,20 @@ nav li a{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 80%;
-        
-        
+        position: relative;
+        top: 550px; 
+        margin-bottom: 100px;  
     }
+
+    
 
     /* black white */
     .black-white{
         position: relative;
         top: 450px;
     }
+
+    
 
     .black-white-photo{
         flex-wrap: wrap;
