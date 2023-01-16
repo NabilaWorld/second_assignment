@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root{
+    --dark_1:#131313;
+    --dark_2:#424242;
+    --dark_3:#727272;
+    --white:#FFFFFF;
+    --orange:#FF900E;
+    
+}
+
+
+/* header back ground-color start */
+header{
+    background-color: rgba(255, 144, 14, 0.1);
+    height: 161vh;
+    margin-bottom: 47px;
+    
+}
+
+/* header nav start */
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 113px;
+}
+
+/* text decoration */
+
+.text-decoration{
+    font-weight: 700;
+    font-size: 35px;
+    color: var(--dark_1);
+}
+
+/* nav decoration */
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    
+}
+
+nav ul li{
+    list-style: none;
+    
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: var(--dark_2);
+    font-weight: 500;
+    font-size: 18px; 
+}
+
+/* header image part */
+
+.photo-text-decoration{
+     align-items: center; 
+    
+}
+
+.photo-header{
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 50px;
+    color: var(--dark_1);
+    text-align: center;
+}
+
+.photo-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--dark_3);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 32px;
+    text-align: center;
+    padding: 2% 20%;
+
+}
+
+
+/* button part */
+
+.button-primary{
+    padding: 10px 15px;
+    background-color: var(--orange);
+    color: var(--white);
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 35px;
+    
+}
+
+/* photo design */
+
+.photo{
+    margin: 0 10%;
+    margin-bottom: 60px;
+}
+
+/* photo gallery */
+
+.photo-collection{
+    margin-bottom: 130px;
+}
+
+.photo-related{
+    display: flex;
+    gap: 73px;
+}
+
+.photo-gallery{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-left: 13%;
+}
+
+.gallery img{
+    width: 242px;
+    height: 242px;
+}
+
+/* photo text */
+.photo-text{
+    /* display: grid;
+    align-items: center; */
+    margin-top: 10%;
+    margin-right: 20%;
+    
+
+}
+
+/* photo text header */
+
+.text-color{
+    font-weight: 700;
+    font-size: 30px;
+    padding-bottom: 24px;
+}
+
+.text-grey{
+    color: var(--dark_3);
+}
+
+.text-orange{
+    color: var(--orange);
+}
+
+/* photo text paragraph */
+
+.gallery-paragraph{
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--dark_3);
+    margin-bottom: 32px;
+    padding-top: 5px;
+}
+
+/* features */
+
+.features-collection{
+    margin-bottom: 150px;
+}
+
+.features{
+    display: flex;
+    gap: 96px;
+    margin: 0 15%;
+    
+}
+
+/* side border */
+
+.side-border{
+    border-left: 5px solid var(--orange);    
+}
+
+.feature-decoration{
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--dark_1);
+    /* padding-bottom: 30px; */
+    margin-left: 10px; 
+
+}
+
+.blank{
+    height: 10px;
+    border: 5px;
+    color: red;
+}
+
+.feature-photo, .feature-image{
+    width: 100%;
+    height: 700px;
+}
+
+/* box shadow */
+
+.box{
+    box-shadow: 5px 10px 18px #888888;
+    padding: 2% 3%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+}
+
+.box-head{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark_1);
+    /* padding-bottom: 20px; */
+}
+
+/* last button decoration */
+
+.button-secondary{
+    background-color: var(--orange);
+    border: none;
+    color: var(--white);
+    border-radius: 8px;
+    padding: 30px 30px;
+    position: relative;
+    top: -70px;
+    left: -50px;
+    margin-bottom: 148px;
+} 
+
+.btn-design-1{
+    color: var(--white);
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 10px;
+}
+
+.btn-design-2{
+    color: var(--white);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+/* extra section */
+
+
+.scroll-add{
+    background-color: rgba(255, 144, 14, 0.1);
+    margin: 0 5%;
+    border-radius: 8px;
+    /* margin-bottom: 20px; */
+}
+
+.scroll-head{
+    color: var(--dark_1);
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.scroll{
+    display: flex;
+    gap: 150px
+}
+
+.scroll-paragraph{
+    overflow-y: scroll;
+    height: 300px;
+    width: 30%;
+    margin-left: 10%;
+    background-color:var(--white);
+    border-radius: 8px;
+    padding: 20px;
+    font-size: 15px;
+    color: var(--dark_3)
+}
+
+.introvert-image{
+    width: 30%;
+    height: 330px;
+    transition: .5s all ease;
+}
+
+.introvert-image:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 10px 20px rgb(189, 184, 184);
+    filter: grayscale(100%);
+}
+
+
+
+/* logo decoration */
+.logo-decoration{
+    margin-bottom: 80px;
+}
+
+.logo-text{
+    margin-left: 15%;
+    margin-right: 50%;
+}
+
+.logo-head{
+    color: var(--dark_1);
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 14px;
+}
+
+.logo-paragraph{
+    color: var(--dark_3);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* logo design */
+ .logo-related{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    margin: 0 15%;
+ }
+
+
+.logo-design{
+    
+    margin-left: 18%;
+    margin-bottom: 150px;
+    border: 1px solid var(--orange);
+    border-radius: 8px;
+    width: 13%;
+    transition: .5s all ease;
+    width: 80%;
+    
+}
+
+.logo-design:hover{
+    transform: scale(1.2);
+    box-shadow: 5px 10px 20px rgb(189, 184, 184) inset;
+}
+
+   .logo-pic{
+    margin: 10%;
+   }
+
+
+   .photo-frame{ 
+    margin-left: 30%;
+    margin-top: 6%;
+    margin-bottom: 5px;
+}
+
+
+
+.logo-pic-head{
+    color: var(--dark_1);
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.logo-pic-paragraph{
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--dark_3);
+    text-align: center;
+    
+}  
+
+/* black-white-text */
+
+.black-white-text{
+
+    margin-bottom: 50px;
+
+}
+
+.black-white-head{
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--dark_1);
+}
+
+.black-white-paragraph{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--dark_3);
+    margin: 0 30%;
+}
+
+/* black-white-photo */
+
+.black-white-photo{
+    display: flex;
+    gap: 100px;
+    margin: 0 15%;
+    margin-bottom: 50px;
+}
+
+.black-photo{
+    width: 100px;
+    height: 30px;
+    filter: grayscale(100%);
+}
+
+/* footer design */
+
+.footer-design{
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin: 0 15%;
+}
+
+.footer-text{
+    text-align: center;
+    padding: 2% 0;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--dark_2);
+    margin-bottom: 50px;
+}
+
+
+
+/* media query for phone */
+
+@media only screen and (max-width:576px) {
+
+    
+    .header-section{
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .text-decoration{
+        font-size: 25px;
+    }
+
+    nav ul, .photo-related, .features{
+        flex-direction: column;
+    }
+
+    .photo{
+        width: 85%;
+    }
+
+    .photo-gallery{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .photo-text{
+        padding-left: 20%;
+    }
+
+    .feature-photo{
+        width: 100%;
+        height: 50px;
+    }
+
+
+    /* extra feature */
+
+
+    .scroll-add{
+        position: relative;
+        top: 590px;
+    }
+
+    .scroll{
+        display: grid;
+        grid-template-columns: repeat(1, fr);
+    }
+
+    .scroll-paragraph{
+        width: 70%;
+        height: 200px;
+    }
+
+    .introvert-image{
+        width: 100%;
+        height: 200px;
+    }
+    
+
+
+
+    /* for logo */
+
+    .logo-decoration{
+        position: relative;
+        top: 600px;
+        padding-bottom: 30px; 
+    }
+
+    .logo-text{
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+
+    /* logo image */
+    .logo-design{
+        position: relative;
+        top: 550px;
+        width: 40%;
+    }
+
+  
+    .logo-related{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 80%;
+        
+        
+    }
+
+    /* black white */
+    .black-white{
+        position: relative;
+        top: 450px;
+    }
+
+    .black-white-photo{
+        flex-wrap: wrap;
+        
+    }
+
+    .footer-design{
+        position: relative;
+        top: 450px;
+        margin-bottom: 20px;
+    }
+    
+   
+}
